@@ -14,10 +14,10 @@ library("syuzhet")
 
 
 # Authonitical keys
-consumer_key <- 'cQ8RGryWPvZlpsPukvXuxopX1'
-consumer_secret <- 'TV3pydtoyiZldUkrfNvYgdqW0dHwR0gnSFdx5YOgd3UFSW1Wka'
-access_token <- '1251859265641254912-Ktnaezzey7fjEHx5j4Ihhb2KuRyvZS'
-access_secret <- '71zb2YMXVC1CjveTuwtfe5chaKsLHvY1crrokwPIGbLrT'
+consumer_key <- 'cQ8RGsfhs;klghsl;ghaslkvXuxopX1'
+consumer_secret <- 'TV3pyhdslhaflks;hgfslgx5YOgd3UFSW1Wka'
+access_token <- '12518592asgaj;sjg;gjl;sajgl;sgj;shgkls2KuRyvZS'
+access_secret <- '71zb2YMXVC1sgsag;sgnncncsgg;agygygalsgywPIGbLrT'
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 tweets_rawData <- userTimeline("realDonaldTrump", n=800)
